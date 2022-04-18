@@ -10,7 +10,6 @@ const Services = () => {
     }, [])
     return (
         <div>
-            <h2>Services:{services.length}</h2>
             <div className="service-container">
                 {
                     services.map(service => <Service

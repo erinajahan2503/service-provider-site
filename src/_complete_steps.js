@@ -12,7 +12,7 @@ Make sure your design and website idea is unique. First, finalize your idea (Wha
 
 1 .Give your website a name. The name should appear on the website and be displayed on the website's title.
 Home page will have a header (simple navbar), banner, services section, and a footer. The banner could be static or a carousel. Either one will be alright.
-Add One extra section on the home page in addition to the 4 sections (header, banner, services, and footer) mentioned above.
+2. Add One extra section on the home page in addition to the 4 sections (header, banner, services, and footer) mentioned above.
 The Services section will have at least 3 services. You can put one, two, or more services in a row based on your design. Each service should have a relevant name, price, image, short description, and a specific button.
 
 Clicking on the button will take the user to the Checkout route. This route will be private/protected routes. Please make sure that the private route redirects to the login page if the user is not logged in. After login, the user will be redirected to the checkout page
