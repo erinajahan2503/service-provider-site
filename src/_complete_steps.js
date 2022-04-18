@@ -37,8 +37,14 @@ Add two more routes. one route will be blogs. On the blog page, you will need to
 
 You will create an about me page. It could be the about route. There will put your name and your image (picture is optional. However, if you put a photo, please put a professional look picture). And write a small paragraph (3-5 lines) about your goal. And how you will work hard to achieve your goal.
 
-Create a 404 page (not found page)
-Minimum 9 meaningful git commit
+
+
+
+#Create a 404 page (not found page)
+#Minimum 9 meaningful git commit
+
+
+
 Bonus:
 Make the website meaningful and consistent in look and feel. Give your website a relevant name. Images and all the content of the website have to be appropriate. No lorem ipsum please.
 Meaningful readme.md file containing your website name, and link to your live site. And at least five bullet points mentioning your website's different features and functionality. And a list of technologies (frameworks, libraries) used in your project.
@@ -52,6 +58,12 @@ Your checkout page will be a dynamic route with route parameter having the id of
 Use the Environment variable to hide the firebase key
 Add active routes to see which route you are.
 If possible, make the entire website responsive. Once you are done making the home page responsive, you wont need much things to do to make the entire website responsive.
+
+
+
+
+
+
 Optional:
 For the Checkout page, you can use basic html form or any css library. However, we encourage you to try out the react hook form.
 Add some mouseover animation while taking the mouse on the services card

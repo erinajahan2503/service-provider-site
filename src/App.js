@@ -5,16 +5,24 @@ import Home from './Pages/Home/Home/Home';
 import Services from './Pages/Home/Services/Services';
 import Header from './Pages/Shared/Header/Header';
 import Footer from './Pages/Shared/Footer/Footer';
+import Login from './Pages/Login/Login';
+import Notfound from './Pages/Notfound/Notfound';
+import Blog from './Pages/Blog/Blog';
+import CheckOut from './Pages/CheckOut/CheckOut';
 
 
 function App() {
   return (
-    <div >
+    <div className='App'>
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
-        <Route path='/service' element={<Services></Services>}></Route>
+        <Route path="/service" element={<Services></Services>}></Route>
         <Route path="/about" element={<About></About>}></Route>
+        <Route path='/checkout' element={<CheckOut></CheckOut>}></Route>
+        <Route path='/blog' element={<Blog></Blog>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="*" element={<Notfound></Notfound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
