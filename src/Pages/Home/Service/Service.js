@@ -1,15 +1,15 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import './Service.css'
 const Service = ({ service }) => {
     const { img, name, category, price, duration } = service;
     return (
         <div className='service'>
-            <img height={150} width={250} src={img} alt="" />
+            <img height={250} width={450} src={img} alt="" />
             <h3>Name:{name}</h3>
             <p>{category}</p>
-            <p>${price}</p>
-            <p>{duration}</p>
-            <button>Book Now</button>
+            <p>Price:${price}</p>
+            <Button className='btn' variant="outline-danger">Book Now</Button>{' '}
         </div>
     );
 };

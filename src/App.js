@@ -9,6 +9,7 @@ import Notfound from './Pages/Notfound/Notfound';
 import Blog from './Pages/Blog/Blog';
 import CheckOut from './Pages/CheckOut/CheckOut';
 import Login from './Pages/Login/Login/Login';
+import Register from './Pages/Login/Register/Register';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/checkout' element={<CheckOut></CheckOut>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
         <Route path="*" element={<Notfound></Notfound>}></Route>
       </Routes>
       <Footer></Footer>

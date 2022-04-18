@@ -7,3 +7,8 @@
     text-align: center;
     margin: 10px 40px 40px;
 }
+
+.btn {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

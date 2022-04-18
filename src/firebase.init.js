@@ -6,12 +6,12 @@ import { getAuth } from 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBYpXWe70yGePBgX3_Zx9v0fYj6JUKiZds",
-    authDomain: "weeding-personal-photographer.firebaseapp.com",
-    projectId: "weeding-personal-photographer",
-    storageBucket: "weeding-personal-photographer.appspot.com",
-    messagingSenderId: "503704024058",
-    appId: "1:503704024058:web:47bc842b3710e245d2aa43"
+    apiKey: process.env.REACT_APP_apiKey,
+    authDomain: process.env.REACT_APP_authDomain,
+    projectId: process.env.REACT_APP_projectId,
+    storageBucket: process.env.REACT_APP_storageBucket,
+    messagingSenderId: process.env.REACT_APP_messagingSenderId,
+    appId: process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
