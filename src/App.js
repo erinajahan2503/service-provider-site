@@ -5,10 +5,10 @@ import Home from './Pages/Home/Home/Home';
 import Services from './Pages/Home/Services/Services';
 import Header from './Pages/Shared/Header/Header';
 import Footer from './Pages/Shared/Footer/Footer';
-import Login from './Pages/Login/Login';
 import Notfound from './Pages/Notfound/Notfound';
 import Blog from './Pages/Blog/Blog';
 import CheckOut from './Pages/CheckOut/CheckOut';
+import Login from './Pages/Login/Login/Login';
 
 
 function App() {

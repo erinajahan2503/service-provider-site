@@ -35,11 +35,11 @@ Add two more routes. one route will be blogs. On the blog page, you will need to
 
 13.3 What other services does firebase provide other than authentication
 
-You will create an about me page. It could be the about route. There will put your name and your image (picture is optional. However, if you put a photo, please put a professional look picture). And write a small paragraph (3-5 lines) about your goal. And how you will work hard to achieve your goal.
 
 
 
 
+#You will create an about me page. It could be the about route. There will put your name and your image (picture is optional. However, if you put a photo, please put a professional look picture). And write a small paragraph (3-5 lines) about your goal. And how you will work hard to achieve your goal.
 #Create a 404 page (not found page)
 #Minimum 9 meaningful git commit
 
