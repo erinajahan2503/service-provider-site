@@ -1,6 +1,9 @@
 .service {
     border: 1px solid rgb(205, 233, 205);
-    border-radius: 5px;
-    padding: 5px;
-    height: 450px;
+    border-radius: 1px;
+    height: 550px;
+    width: 550px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin: 10px 40px 40px;
 }
