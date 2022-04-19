@@ -1,15 +1,18 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import './Service.css'
 const Service = ({ service }) => {
-    const { img, name, category, price, duration } = service;
+    const navigate = useNavigate()
+    const { img, name, category, price } = service;
     return (
         <div className='service'>
             <img height={250} width={450} src={img} alt="" />
             <h3>Name:{name}</h3>
             <p>{category}</p>
             <p>Price:${price}</p>
-            <Button className='btn' variant="outline-danger">Book Now</Button>{' '}
+            <div>
+                <button className='service-btn' onClick={() => navigate('/checkout')} >Book Now</button>
+            </div>
         </div>
     );
 };

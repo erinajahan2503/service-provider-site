@@ -8,7 +8,12 @@
     margin: 10px 40px 40px;
 }
 
-.btn {
-    padding-top: 5px;
-    padding-bottom: 5px;
+.service-btn {
+    background-color: red;
+    border: 0;
+    margin-top: 0px;
+    margin-left: 8px;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 7px 25px;
 }

@@ -38,8 +38,7 @@ Add two more routes. one route will be blogs. On the blog page, you will need to
 
 Bonus:
 
-Meaningful readme.md file , and link to your live site. And at least five bullet points mentioning your website's different features and functionality. And a list of technologies (frameworks, libraries) used in your project.
-Make the home page of your website responsive. Make sure the site looks different on desktop and mobile responsive. Tablet responsive is optional.
+
 Clean and organized Code. Organize components and add comments when needed
 Display error when user email address or password don't match.
 Send Email Verification. Don't worry if the email goes to the spam folder or it doesn't go at all. As long as your code is there, you will be fine.
