@@ -1,7 +1,7 @@
 ### `independent-service-provider`
 
 
-Live Sie:[http://localhost:3000](http://localhost:3000) to view it in your browser.
+Live Sie:[https://weeding-personal-photographer.web.app/](https://weeding-personal-photographer.web.app/) to view it in your browser.
 
 
 
