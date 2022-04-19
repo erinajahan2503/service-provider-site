@@ -4,7 +4,6 @@ import About from './Pages/About/About';
 import Home from './Pages/Home/Home/Home';
 import Services from './Pages/Home/Services/Services';
 import Header from './Pages/Shared/Header/Header';
-import Footer from './Pages/Shared/Footer/Footer';
 import Notfound from './Pages/Notfound/Notfound';
 import Blog from './Pages/Blog/Blog';
 import CheckOut from './Pages/CheckOut/CheckOut';
@@ -29,7 +28,7 @@ function App() {
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path="*" element={<Notfound></Notfound>}></Route>
       </Routes>
-      <Footer></Footer>
+
     </div>
   );
 }

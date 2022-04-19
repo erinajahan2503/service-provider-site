@@ -29,25 +29,16 @@ Once logged in, the log out/sign out button should appear on the header, which w
 
 Add two more routes. one route will be blogs. On the blog page, you will need to answer these three questions. This won't be a protected route
 
-13.1 Difference between authorization and authentication
-
-13.2 Why are you using firebase? What other options do you have to implement authentication?
-
-13.3 What other services does firebase provide other than authentication
 
 
 
 
-
-#You will create an about me page. It could be the about route. There will put your name and your image (picture is optional. However, if you put a photo, please put a professional look picture). And write a small paragraph (3-5 lines) about your goal. And how you will work hard to achieve your goal.
-#Create a 404 page (not found page)
-#Minimum 9 meaningful git commit
 
 
 
 Bonus:
-Make the website meaningful and consistent in look and feel. Give your website a relevant name. Images and all the content of the website have to be appropriate. No lorem ipsum please.
-Meaningful readme.md file containing your website name, and link to your live site. And at least five bullet points mentioning your website's different features and functionality. And a list of technologies (frameworks, libraries) used in your project.
+
+Meaningful readme.md file , and link to your live site. And at least five bullet points mentioning your website's different features and functionality. And a list of technologies (frameworks, libraries) used in your project.
 Make the home page of your website responsive. Make sure the site looks different on desktop and mobile responsive. Tablet responsive is optional.
 Clean and organized Code. Organize components and add comments when needed
 Display error when user email address or password don't match.
